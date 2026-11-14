@@ -1,0 +1,23 @@
+Summary
+  Generated on: 11/14/2026 - 04:44:24
+  Coverage date: 11/14/2026 - 04:44:23
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 1
+  Files: 1
+  Line coverage: 100%
+  Covered lines: 7
+  Uncovered lines: 0
+  Coverable lines: 7
+  Total lines: 28
+  Branch coverage: 100% (6 of 6)
+  Covered branches: 6
+  Total branches: 6
+  Method coverage: 100% (2 of 2)
+  Full method coverage: 100% (2 of 2)
+  Covered methods: 2
+  Fully covered methods: 2
+  Total methods: 2
+
+Primes.Lib                   100%
+  Primes.Lib.PrimeService    100%

@@ -1,0 +1,17 @@
+{
+  "api/Primes.Lib.PrimeService.html": {
+    "href": "api/Primes.Lib.PrimeService.html",
+    "title": "Class PrimeService | Primes.Lib - SI784 Lab02",
+    "summary": "Class PrimeService Namespace Primes.Lib Assembly Primes.Lib.dll Determina si un número entero es primo. public class PrimeService Inheritance object PrimeService Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors PrimeService() Crea el servicio de comprobación de números primos. public PrimeService() Methods IsPrime(int) Comprueba si el candidato tiene exactamente dos divisores positivos. public bool IsPrime(int candidate) Parameters candidate int Entero que se desea evaluar. Returns bool True si el candidato es primo; false para compuestos y valores menores que dos. Remarks Basta buscar divisores hasta la raíz cuadrada del candidato. La condición divisor <= candidate / divisor evita desbordar al multiplicar enteros."
+  },
+  "api/Primes.Lib.html": {
+    "href": "api/Primes.Lib.html",
+    "title": "Namespace Primes.Lib | Primes.Lib - SI784 Lab02",
+    "summary": "Namespace Primes.Lib Classes PrimeService Determina si un número entero es primo."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Primes.Lib - Pruebas unitarias con xUnit | Primes.Lib - SI784 Lab02",
+    "summary": "Primes.Lib - Pruebas unitarias con xUnit PrimeService.IsPrime indica si un entero es primo. Devuelve false para valores menores que dos y para números compuestos. var service = new Primes.Lib.PrimeService(); service.IsPrime(19); // true service.IsPrime(20); // false Las pruebas utilizan [Fact], [Theory] e [InlineData]. Se comprueba cada entero del 2 al 20: los primos esperados son 2, 3, 5, 7, 11, 13, 17 y 19. También se comprueban -1, 0, 1 y los límites de Int32. El algoritmo prueba divisores hasta la raíz cuadrada mediante una comparación que evita multiplicaciones que puedan desbordar. El reporte de cobertura se encuentra enlazado desde la portada del sitio."
+  }
+}
